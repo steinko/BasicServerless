@@ -20,7 +20,17 @@ repositories {
 
 dependencies {
     // https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-function-web
-implementation group: 'org.springframework.cloud', name: 'spring-cloud-starter-function-web', version: '3.1.4'
+   implementation group: 'org.springframework.cloud', name: 'spring-cloud-starter-function-web', version: '3.1.4'
+   // https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-function-adapter-aws
+   implementation group: 'org.springframework.cloud', name: 'spring-cloud-function-adapter-aws', version: '3.1.4'
+   // https://mvnrepository.com/artifact/com.amazonaws/aws-lambda-java-events
+   implementation group: 'com.amazonaws', name: 'aws-lambda-java-events', version: '3.10.0'
+   // https://mvnrepository.com/artifact/com.amazonaws/aws-lambda-java-core
+   implementation group: 'com.amazonaws', name: 'aws-lambda-java-core', version: '1.2.1'
+   // https://mvnrepository.com/artifact/org.springframework.boot.experimental/spring-boot-thin-layout
+   implementation group: 'org.springframework.boot.experimental', name: 'spring-boot-thin-layout', version: '1.0.27.RELEASE'
+   
+   
     
     // Use JUnit Jupiter for testing.
     testImplementation 'org.junit.jupiter:junit-jupiter:5.7.1'
