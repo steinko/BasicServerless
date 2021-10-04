@@ -1,0 +1,11 @@
+default:
+  image: openjdk:15
+ 
+stages:
+  - continuose-intgeration
+  
+ 
+backend-integration-test:
+  stage: continuose-intgeration
+  script:
+    - ./gradlew build
